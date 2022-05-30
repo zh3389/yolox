@@ -31,12 +31,12 @@ python start.py
 
 Step1.
 ```shell
-cd <YOLOX_HOME>/demo/ONNXRuntime
+cd <YOLOX_HOME>
 ```
 
 Step2. 
 ```shell
-python3 onnx_inference.py -m <ONNX_MODEL_PATH> -i <IMAGE_PATH> -o <OUTPUT_DIR> -s 0.3 --input_shape 640,640
+python3 start.py -m <ONNX_MODEL_PATH> -i <IMAGE_PATH> -o <OUTPUT_DIR> -s 0.3 --input_shape 640,640
 ```
 Notes:
 * -m: your converted onnx model
