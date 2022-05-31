@@ -83,5 +83,5 @@ if __name__ == '__main__':
     output_path = os.path.join(args.output_dir, args.image_path.split("/")[-1])
     cv2.imshow("result", origin_img)
     cv2.waitKey(0)
-    cv2.destroyWindow()
+    cv2.destroyWindow("q")
     # cv2.imwrite(output_path, origin_img)
